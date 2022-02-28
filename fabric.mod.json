@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "bleachhack",
+  "version": "1.2.5",
+  "name": "BleachHack",
+  "description": "gamer obama utility mod",
+  "authors": [
+    "Bleach"
+  ],
+  "contact": {
+    "homepage": "https://bleachhack.org/",
+    "sources": "https://github.com/BleachDrinker420/BleachHack"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bleachhack/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.bleachhack.BleachHack"
+    ]
+  },
+  "mixins": [
+    "bleachhack.mixins.json"
+  ],
+  "accessWidener": "bleachhack.accesswidener",
+  "depends": {
+    "minecraft": "~1.18"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/ascii85-1.2.jar"
+    }
+  ]
+}
